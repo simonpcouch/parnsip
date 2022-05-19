@@ -1,6 +1,6 @@
 Package: parnsip
 Title: Easily install and load the parsnip package
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Simon", "Couch", , "simonpatrickcouch@gmail.com", role = c("aut", "cre"))
 Description: Easily install and load the parsnip package.
@@ -8,3 +8,5 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
+Imports:
+    parsnip

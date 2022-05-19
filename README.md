@@ -19,7 +19,7 @@ devtools::install_github("simonpcouch/parnsip")
 ## Example
 
 This is a basic example which shows you how to solve a common problem
-(that is, mistyping `"parsnip"`:
+(that is, mistyping `"parsnip"`):
 
 ``` r
 library(parnsip)
@@ -28,4 +28,7 @@ library(parnsip)
 ## Roadmap
 
 -   It could be nice to re-export all of parsnip—or re-write it
-    entirely—so that you could do the `::` thing with parnsip.
+    entirely—so that you could do the `::` thing with parnsip
+-   Use {rstudioapi} to replace `library(parnsip)` with
+    `library(parsnip)`, but that would make this package really hard to
+    develop
